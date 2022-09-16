@@ -131,7 +131,8 @@ body {
 	margin-right: 10px;
 	fill: var(--icon-color);
 }
-.icon:hover {
+.icon:hover,
+.icon:focus {
 	fill: var(--accent-color);
 }
 
@@ -342,7 +343,8 @@ body {
 	border-radius: 50%;
 }
 
-.social-item a:hover {
+.social-item a:hover,
+.social-item a:focus {
 	background: var(--accent-color);
 	fill: var(--primary-white-color);
 }
@@ -369,13 +371,13 @@ body {
 	fill: var(--icon-color);
 }
 
-.client-item a:hover {
+.client-item a:hover,
+.client-item a:focus {
 	fill: var(--accent-color);
 	/* width: 170px;
 	height: 92px;
 	border: 3px solid var(--accent-color);
 	border-radius: 4px; */
-	
 }
 
 /* footer */
@@ -433,7 +435,8 @@ body {
 	fill: var(--primary-white-color);
 	background: rgba(255, 255, 255, 0.1);
 }
-.footer-social .social-item a:hover {
+.footer-social .social-item a:hover,
+.footer-social .social-item a:focus {
 	background: var(--accent-color);
 }
 
@@ -478,6 +481,7 @@ body {
 .button:focus {
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* portfolio */
