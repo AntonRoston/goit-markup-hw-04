@@ -373,9 +373,7 @@ body {
 	justify-content: center;
 	fill: var(--icon-color);
 	padding: 0 32px;
-	
 }
-
 
 .client-item a:hover,
 .client-item a:focus {
